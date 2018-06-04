@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*mine*/
+
+.wrap{
+	margin:0 auto;
+	width:1000px;
+	font-family:"Microsoft JhengHei";
+	font-weight:bold;
+}
+/*fb & twitter*/
+.header{
+	background:#f6f6f6;
+	margin-top:10px;
+	height: 30px;
+	margin-bottom:10px;
+}
+
+.header ul{
+	float:right;
+}
+
+.header li{
+	float:left;
+	margin:5px 7px 5px 5px;
+}
+.header li img{
+	margin-right:5px;
+	float:left;
+}
+
+.header li a{
+	text-decoration:none;
+	font-size:16px;
+}
+
+.fb{
+	border-right:solid 2px #cccccc;
+	padding-right:10px;
+}
+.fb a{
+	color:#4460a0;
+}
+
+.fb a:hover{
+	color:#F79FF6;
+}
+
+.twitter a{
+	color:#00aaec;
+}
+
+.twitter a:hover{
+	color:#F79FF6;
+}
+/*Hex School*/
+.header1{
+	margin-bottom:0px;
+	height: 40px;
+	padding-left:20px;
+}
+
+.header1 ul{
+	float:right;
+}
+.header1 ul li{
+	float:left;
+	
+	margin: 0px 10px 0px 10px ;
+	display:inline-block;
+	line-height:40px;
+}
+
+.header1 ul li a{
+	color:#00cc99;
+	text-decoration:none;
+}
+
+.header1 ul li :hover{
+	color:#3D9C6B;
+	text-decoration:none;
+	display:inline-block;
+	height:36px;
+	border-bottom:4px solid #3D9C6B;
+}
+
+.header1 .logo{
+	/*background-image:url(../images/logo.png);*/
+	/*background-repeat:no-repeat;*/
+	width: 174px;
+	height: 36px;
+	/*text-indent:101%;*/
+	overflow:hidden;
+	white-space:nowrap;
+	display:block;
+	float:left;
+}
+/*六角學院為您奠定*/
+.hexschool img{
+	clear:both;
+	margin-bottom:55px;
+}
+/*course*/
+.course{
+	margin-bottom:362px;/*55來算*/
+}
+
+.course .html5,.course .rwd,.course .jquery{
+	padding:10px 10px 10px 10px;
+	box-shadow:3px 5px 5px #DDD6D6;
+	float:left;
+	width: 300px;
+	box-sizing:border-box;
+}
+
+.html5{
+	margin:0px 15px 0px 20px;
+}
+
+ .html5 h3, .rwd h3 {
+	text-align:center;
+	font-size:24px;
+}
+
+.jquery h3{
+	text-align:center;
+	font-size:24px;
+	line-height: 27px;
+}
+
+ .html5 p , .rwd p{
+	line-height:25px;
+}
+
+.jquery p{
+	line-height:30px;
+}
+
+.html5 img{
+	margin-left:80px;
+}
+
+.rwd{
+	margin:0px 15px 0px 15px;
+}
+
+.rwd img{
+	margin-left:27px;
+	margin-bottom:36px;
+	margin-top:20px;
+}
+
+.jquery{
+	margin:0px 20px 0px 15px;
+	height: 307px;
+}
+
+.jquery img{
+	margin-left:83px;
+	margin-bottom:16px;
+}
+
+.jquery li{
+	list-style: inside disc;
+	line-height:23px;
+}
+/*delete float*/
+.clear_float{
+	clear:both;
+}
+/*table*/
+h2{
+	font-size:30px;
+	text-align:center;
+	line-height:42px;
+}
+
+table{
+	margin:30px 60px 55px 60px;
+}
+
+th,td{
+	width:220px;
+	box-sizing:border-box;
+	padding:10px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	text-align:left;
+}
+
+tr:hover{
+	background-color:#C3E6E5;
+}
+
+
+th{
+	background-color:#F1EEEE;
+}
+
+
+td{
+	font-weight:normal;
+}
+
+td.green{
+	color:#00a67d;
+}
+/*contact*/
+.contact{
+	color:white;
+	padding:30px 20px 0px 20px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	width: 1000px;
+	height: 410px;
+	background:-webkit-linear-gradient(top,#00644b,#009872);
+	background:-moz-linear-gradient(top,#00644b,#009872);
+	background:-o-linear-gradient(top,#00644b,#009872);
+	background:-ms-linear-gradient(top,#00644b,#009872);
+	background:linear-gradient(top,#00644b,#009872);
+}
+
+
+
+#question{
+	margin-top:30px;
+	width:450px;
+	float:left;
+	border-radius:5px;
+}
+
+label{
+	display:block;
+}
+
+.name{
+	float:left;
+	margin-top:30px;
+	margin-left:35px;
+}
+.phone, .mail{
+	float:left;
+	margin-top:20px;
+	margin-left:35px;
+}
+#name, #phone, #mail{
+	width: 450px;
+	height: 20px;
+	margin-top:5px;
+	border-radius:5px;
+	padding-left:10px;
+}
+
+#name:focus, #phone:focus, #mail:focus, #question:focus{
+	border:3px solid #5FF8A7;
+	background-color:#F8F99D;
+}
+
+
+#send{
+	float:right;
+	margin-right:10px;
+	margin-top:20px;
+	background-color:#00cc99;
+	border:1px solid #00cc99;
+	color:white;
+	width: 70px;
+	height: 30px;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+#send:hover{
+	background-color:#3CC16F;
+	cursor:pointer;
+}
+
+/*footer*/
+.footer{
+	margin-bottom:30px;
+	padding:0px 0px 0px 10px;
+	
+	float:left;
+}
+
+.footer1{
+	color:#e12d80;
+	float:right;
+	padding:0px 10px 0px 0px;
+	line-height:25px;
+}
+
+
